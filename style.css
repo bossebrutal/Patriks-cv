@@ -1,0 +1,93 @@
+/*Selector {
+	Property: value;
+}*/
+body,
+html { 
+  background: url(snö.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}	
+
+* {
+	text-align:center;
+	color: #4D658D;
+}
+
+hr {
+    margin: 20px auto;
+    color: #4D658D;
+    border: 3px solid #4D658D;
+    opacity: 1;  
+}
+
+h1 {
+	text-align: center;
+	cursor: pointer;
+}
+
+.buffer {
+	height: 5rem;
+}
+
+.btn {
+	color: #4D658D;
+	border-color: #4D658D;
+}
+
+.btn:hover {
+	background-color: #4D658D;
+	color: white;
+	cursor: pointer;
+	transform: scale(1.1) ;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+li:hover a {
+	color: #4D658D;
+	cursor: pointer;
+}
+
+input {
+	text-align:left;
+	cursor: pointer;
+	border-block-end: 10px;
+}
+
+img {
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.4);
+	animation: forwards;
+}
+
+#div1 {
+	flex-direction: row;
+	color: #4D658D;
+	font-family: 'Cormorant Garamond', serif, Georgia;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+p {
+	line-height: 50px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 250%;
+	font-family: 'Cormorant Garamond', serif, Georgia;
+	color: #4D658D;
+}
+footer a {
+	text-alight: center;
+}
+footer:hover a {
+	color: #4D658D;
+	cursor: pointer;
+}
